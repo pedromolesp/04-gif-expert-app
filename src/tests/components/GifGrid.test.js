@@ -1,6 +1,7 @@
 const { shallow } = require("enzyme");
 const { GifGrid } = require("../../components/GifGrid");
 const { useFetchGifs } = require("../../hooks/useFetchGifs");
+
 jest.mock('../../hooks/useFetchGifs');
 const category = "One punch";
 describe('Pruebas en <GifGrid/>', () => {
